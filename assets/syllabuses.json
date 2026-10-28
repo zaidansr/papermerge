@@ -1,0 +1,1045 @@
+{
+  "fetched_at": "2026-10-28T08:02:38.355839+00:00",
+  "source_urls": {
+    "IGCSE": "https://pastpapers.papacambridge.com/papers/caie/igcse",
+    "AS & A Level": "https://pastpapers.papacambridge.com/papers/caie/as-and-a-level"
+  },
+  "qualifications": {
+    "IGCSE": [
+      {
+        "code": "0452",
+        "title": "Accounting"
+      },
+      {
+        "code": "0985",
+        "title": "Accounting"
+      },
+      {
+        "code": "0512",
+        "title": "Afrikaans"
+      },
+      {
+        "code": "0548",
+        "title": "Afrikaans"
+      },
+      {
+        "code": "0600",
+        "title": "Agriculture"
+      },
+      {
+        "code": "0508",
+        "title": "Arabic"
+      },
+      {
+        "code": "0527",
+        "title": "Arabic"
+      },
+      {
+        "code": "0544",
+        "title": "Arabic"
+      },
+      {
+        "code": "7184",
+        "title": "Arabic"
+      },
+      {
+        "code": "7180",
+        "title": "Arabic - UK"
+      },
+      {
+        "code": "0400",
+        "title": "Art and Design"
+      },
+      {
+        "code": "0415",
+        "title": "Art and Design"
+      },
+      {
+        "code": "0989",
+        "title": "Art and Design"
+      },
+      {
+        "code": "0538",
+        "title": "Bahasa Indonesia"
+      },
+      {
+        "code": "0449",
+        "title": "Bangladesh Studies"
+      },
+      {
+        "code": "0438",
+        "title": "Biology"
+      },
+      {
+        "code": "0610",
+        "title": "Biology"
+      },
+      {
+        "code": "0970",
+        "title": "Biology"
+      },
+      {
+        "code": "0450",
+        "title": "Business Studies"
+      },
+      {
+        "code": "0986",
+        "title": "Business Studies - UK"
+      },
+      {
+        "code": "0439",
+        "title": "Chemistry"
+      },
+      {
+        "code": "0620",
+        "title": "Chemistry"
+      },
+      {
+        "code": "0971",
+        "title": "Chemistry - UK"
+      },
+      {
+        "code": "0637",
+        "title": "Child Development"
+      },
+      {
+        "code": "0509",
+        "title": "Chinese"
+      },
+      {
+        "code": "0523",
+        "title": "Chinese"
+      },
+      {
+        "code": "0534",
+        "title": "Chinese"
+      },
+      {
+        "code": "0547",
+        "title": "Chinese"
+      },
+      {
+        "code": "0478",
+        "title": "Computer Science"
+      },
+      {
+        "code": "0984",
+        "title": "Computer Science"
+      },
+      {
+        "code": "0420",
+        "title": "Computer Studies"
+      },
+      {
+        "code": "0441",
+        "title": "Computer Studies"
+      },
+      {
+        "code": "0514",
+        "title": "Czech - First Language"
+      },
+      {
+        "code": "0445",
+        "title": "Design and Technology"
+      },
+      {
+        "code": "0979",
+        "title": "Design and technology"
+      },
+      {
+        "code": "0453",
+        "title": "Development Studies"
+      },
+      {
+        "code": "0411",
+        "title": "Drama"
+      },
+      {
+        "code": "0428",
+        "title": "Drama"
+      },
+      {
+        "code": "0994",
+        "title": "Drama"
+      },
+      {
+        "code": "0503",
+        "title": "Dutch"
+      },
+      {
+        "code": "0515",
+        "title": "Dutch"
+      },
+      {
+        "code": "0437",
+        "title": "Economics"
+      },
+      {
+        "code": "0455",
+        "title": "Economics"
+      },
+      {
+        "code": "0987",
+        "title": "Economics"
+      },
+      {
+        "code": "0427",
+        "title": "English"
+      },
+      {
+        "code": "0472",
+        "title": "English"
+      },
+      {
+        "code": "0475",
+        "title": "English"
+      },
+      {
+        "code": "0476",
+        "title": "English"
+      },
+      {
+        "code": "0477",
+        "title": "English"
+      },
+      {
+        "code": "0486",
+        "title": "English"
+      },
+      {
+        "code": "0500",
+        "title": "English"
+      },
+      {
+        "code": "0510",
+        "title": "English"
+      },
+      {
+        "code": "0511",
+        "title": "English"
+      },
+      {
+        "code": "0522",
+        "title": "English"
+      },
+      {
+        "code": "0524",
+        "title": "English"
+      },
+      {
+        "code": "0526",
+        "title": "English"
+      },
+      {
+        "code": "0627",
+        "title": "English"
+      },
+      {
+        "code": "0772",
+        "title": "English"
+      },
+      {
+        "code": "0990",
+        "title": "English"
+      },
+      {
+        "code": "0991",
+        "title": "English"
+      },
+      {
+        "code": "0992",
+        "title": "English"
+      },
+      {
+        "code": "0993",
+        "title": "English"
+      },
+      {
+        "code": "0465",
+        "title": "English (as a Second Language)"
+      },
+      {
+        "code": "0454",
+        "title": "Enterprise"
+      },
+      {
+        "code": "0680",
+        "title": "Environmental Management"
+      },
+      {
+        "code": "0648",
+        "title": "Food and Nutrition"
+      },
+      {
+        "code": "0501",
+        "title": "French"
+      },
+      {
+        "code": "0520",
+        "title": "French"
+      },
+      {
+        "code": "0528",
+        "title": "French"
+      },
+      {
+        "code": "7156",
+        "title": "French"
+      },
+      {
+        "code": "0685",
+        "title": "French - Foreign Language (UK)"
+      },
+      {
+        "code": "0460",
+        "title": "Geography"
+      },
+      {
+        "code": "0976",
+        "title": "Geography"
+      },
+      {
+        "code": "0505",
+        "title": "German"
+      },
+      {
+        "code": "0525",
+        "title": "German"
+      },
+      {
+        "code": "0529",
+        "title": "German"
+      },
+      {
+        "code": "0677",
+        "title": "German"
+      },
+      {
+        "code": "7159",
+        "title": "German - UK"
+      },
+      {
+        "code": "0426",
+        "title": "Global Perspectives"
+      },
+      {
+        "code": "0457",
+        "title": "Global Perspectives"
+      },
+      {
+        "code": "0536",
+        "title": "Greek"
+      },
+      {
+        "code": "0543",
+        "title": "Greek"
+      },
+      {
+        "code": "0549",
+        "title": "Hindi"
+      },
+      {
+        "code": "0416",
+        "title": "History"
+      },
+      {
+        "code": "0470",
+        "title": "History"
+      },
+      {
+        "code": "0977",
+        "title": "History"
+      },
+      {
+        "code": "0409",
+        "title": "History - American"
+      },
+      {
+        "code": "0417",
+        "title": "ICT"
+      },
+      {
+        "code": "0447",
+        "title": "India Studies"
+      },
+      {
+        "code": "0545",
+        "title": "Indonesian"
+      },
+      {
+        "code": "0983",
+        "title": "Information and Communication Technology (9-1)"
+      },
+      {
+        "code": "0531",
+        "title": "IsiZulu"
+      },
+      {
+        "code": "0493",
+        "title": "Islamiyat"
+      },
+      {
+        "code": "0535",
+        "title": "Italian"
+      },
+      {
+        "code": "7164",
+        "title": "Italian"
+      },
+      {
+        "code": "0507",
+        "title": "Japanese"
+      },
+      {
+        "code": "0519",
+        "title": "Japanese"
+      },
+      {
+        "code": "0532",
+        "title": "Kazakh"
+      },
+      {
+        "code": "0521",
+        "title": "Korean"
+      },
+      {
+        "code": "0480",
+        "title": "Latin"
+      },
+      {
+        "code": "0546",
+        "title": "Malay"
+      },
+      {
+        "code": "0696",
+        "title": "Malay - First Language"
+      },
+      {
+        "code": "0697",
+        "title": "Marine Science Maldives only"
+      },
+      {
+        "code": "0444",
+        "title": "Mathematics"
+      },
+      {
+        "code": "0459",
+        "title": "Mathematics"
+      },
+      {
+        "code": "0580",
+        "title": "Mathematics"
+      },
+      {
+        "code": "0581",
+        "title": "Mathematics"
+      },
+      {
+        "code": "0606",
+        "title": "Mathematics"
+      },
+      {
+        "code": "0607",
+        "title": "Mathematics"
+      },
+      {
+        "code": "0626",
+        "title": "Mathematics"
+      },
+      {
+        "code": "0980",
+        "title": "Mathematics"
+      },
+      {
+        "code": "0410",
+        "title": "Music"
+      },
+      {
+        "code": "0429",
+        "title": "Music"
+      },
+      {
+        "code": "0978",
+        "title": "Music - UK"
+      },
+      {
+        "code": "0448",
+        "title": "Pakistan Studies"
+      },
+      {
+        "code": "0413",
+        "title": "Physical Education"
+      },
+      {
+        "code": "0995",
+        "title": "Physical Education"
+      },
+      {
+        "code": "0652",
+        "title": "Physical Science"
+      },
+      {
+        "code": "0443",
+        "title": "Physics"
+      },
+      {
+        "code": "0625",
+        "title": "Physics"
+      },
+      {
+        "code": "0972",
+        "title": "Physics"
+      },
+      {
+        "code": "0504",
+        "title": "Portuguese"
+      },
+      {
+        "code": "0540",
+        "title": "Portuguese"
+      },
+      {
+        "code": "0490",
+        "title": "Religious Studies"
+      },
+      {
+        "code": "0516",
+        "title": "Russian"
+      },
+      {
+        "code": "0499",
+        "title": "Sanskrit"
+      },
+      {
+        "code": "0653",
+        "title": "Science"
+      },
+      {
+        "code": "0442",
+        "title": "Sciences"
+      },
+      {
+        "code": "0654",
+        "title": "Sciences"
+      },
+      {
+        "code": "0973",
+        "title": "Sciences"
+      },
+      {
+        "code": "0698",
+        "title": "Setswana - First Language"
+      },
+      {
+        "code": "0495",
+        "title": "Sociology"
+      },
+      {
+        "code": "0474",
+        "title": "Spanish"
+      },
+      {
+        "code": "0502",
+        "title": "Spanish"
+      },
+      {
+        "code": "0530",
+        "title": "Spanish"
+      },
+      {
+        "code": "0533",
+        "title": "Spanish"
+      },
+      {
+        "code": "0537",
+        "title": "Spanish"
+      },
+      {
+        "code": "0678",
+        "title": "Spanish"
+      },
+      {
+        "code": "7160",
+        "title": "Spanish"
+      },
+      {
+        "code": "0488",
+        "title": "Spanish Literature"
+      },
+      {
+        "code": "0262",
+        "title": "Swahili"
+      },
+      {
+        "code": "0518",
+        "title": "Thai"
+      },
+      {
+        "code": "0471",
+        "title": "Travel and Tourism"
+      },
+      {
+        "code": "0513",
+        "title": "Turkish"
+      },
+      {
+        "code": "0608",
+        "title": "Twenty First Century Science"
+      },
+      {
+        "code": "0539",
+        "title": "Urdu"
+      },
+      {
+        "code": "0695",
+        "title": "Vietnamese - First Language"
+      },
+      {
+        "code": "0408",
+        "title": "World Literature"
+      }
+    ],
+    "AS & A Level": [
+      {
+        "code": "9706",
+        "title": "Accounting"
+      },
+      {
+        "code": "8679",
+        "title": "Afrikaan"
+      },
+      {
+        "code": "8779",
+        "title": "Afrikaans"
+      },
+      {
+        "code": "9679",
+        "title": "Afrikaans"
+      },
+      {
+        "code": "9713",
+        "title": "Applied ICT"
+      },
+      {
+        "code": "8680",
+        "title": "Arabic"
+      },
+      {
+        "code": "9680",
+        "title": "Arabic"
+      },
+      {
+        "code": "9479",
+        "title": "Art and Design"
+      },
+      {
+        "code": "9704",
+        "title": "Art and Design"
+      },
+      {
+        "code": "9484",
+        "title": "Biblical Studies"
+      },
+      {
+        "code": "9184",
+        "title": "Biology"
+      },
+      {
+        "code": "9700",
+        "title": "Biology"
+      },
+      {
+        "code": "9609",
+        "title": "Business"
+      },
+      {
+        "code": "9707",
+        "title": "Business Studies"
+      },
+      {
+        "code": "9980",
+        "title": "Cambridge International Project Qualification"
+      },
+      {
+        "code": "9185",
+        "title": "Chemistry"
+      },
+      {
+        "code": "9701",
+        "title": "Chemistry"
+      },
+      {
+        "code": "8238",
+        "title": "Chinese"
+      },
+      {
+        "code": "8669",
+        "title": "Chinese"
+      },
+      {
+        "code": "8681",
+        "title": "Chinese"
+      },
+      {
+        "code": "9715",
+        "title": "Chinese"
+      },
+      {
+        "code": "9868",
+        "title": "Chinese"
+      },
+      {
+        "code": "9274",
+        "title": "Classical Studies"
+      },
+      {
+        "code": "9608",
+        "title": "Computer Science"
+      },
+      {
+        "code": "9691",
+        "title": "Computing"
+      },
+      {
+        "code": "9481",
+        "title": "Design and Technology"
+      },
+      {
+        "code": "9705",
+        "title": "Design and Technology"
+      },
+      {
+        "code": "9631",
+        "title": "Design and Textiles"
+      },
+      {
+        "code": "9482",
+        "title": "Drama"
+      },
+      {
+        "code": "9708",
+        "title": "Economics"
+      },
+      {
+        "code": "8274",
+        "title": "English"
+      },
+      {
+        "code": "8287",
+        "title": "English"
+      },
+      {
+        "code": "8693",
+        "title": "English"
+      },
+      {
+        "code": "8695",
+        "title": "English"
+      },
+      {
+        "code": "9093",
+        "title": "English"
+      },
+      {
+        "code": "9276",
+        "title": "English - Literature"
+      },
+      {
+        "code": "9695",
+        "title": "English - Literature"
+      },
+      {
+        "code": "8021",
+        "title": "English General Paper"
+      },
+      {
+        "code": "8291",
+        "title": "Environmental Management"
+      },
+      {
+        "code": "9336",
+        "title": "Food Studies"
+      },
+      {
+        "code": "8277",
+        "title": "French"
+      },
+      {
+        "code": "8682",
+        "title": "French"
+      },
+      {
+        "code": "9281",
+        "title": "French"
+      },
+      {
+        "code": "9716",
+        "title": "French"
+      },
+      {
+        "code": "8028",
+        "title": "French - Language AS Level only"
+      },
+      {
+        "code": "8670",
+        "title": "French - Literature"
+      },
+      {
+        "code": "9898",
+        "title": "French Language & Literature"
+      },
+      {
+        "code": "8001",
+        "title": "General Paper"
+      },
+      {
+        "code": "8004",
+        "title": "General Paper"
+      },
+      {
+        "code": "9278",
+        "title": "Geography"
+      },
+      {
+        "code": "9696",
+        "title": "Geography"
+      },
+      {
+        "code": "8027",
+        "title": "German"
+      },
+      {
+        "code": "8683",
+        "title": "German"
+      },
+      {
+        "code": "9717",
+        "title": "German"
+      },
+      {
+        "code": "9897",
+        "title": "German Language & Literature"
+      },
+      {
+        "code": "8275",
+        "title": "Global Perspectives"
+      },
+      {
+        "code": "8987",
+        "title": "Global Perspectives"
+      },
+      {
+        "code": "9239",
+        "title": "Global Perspectives and Research"
+      },
+      {
+        "code": "8687",
+        "title": "Hindi"
+      },
+      {
+        "code": "9687",
+        "title": "Hindi"
+      },
+      {
+        "code": "8675",
+        "title": "Hindi - Literature"
+      },
+      {
+        "code": "8058",
+        "title": "Hinduism"
+      },
+      {
+        "code": "9014",
+        "title": "Hinduism"
+      },
+      {
+        "code": "9487",
+        "title": "Hinduism"
+      },
+      {
+        "code": "9279",
+        "title": "History"
+      },
+      {
+        "code": "9389",
+        "title": "History"
+      },
+      {
+        "code": "9489",
+        "title": "History"
+      },
+      {
+        "code": "9697",
+        "title": "History"
+      },
+      {
+        "code": "9626",
+        "title": "Information Technology"
+      },
+      {
+        "code": "9488",
+        "title": "Islamic Studies"
+      },
+      {
+        "code": "8281",
+        "title": "Japanese"
+      },
+      {
+        "code": "9084",
+        "title": "Law"
+      },
+      {
+        "code": "8688",
+        "title": "Marathi"
+      },
+      {
+        "code": "9688",
+        "title": "Marathi"
+      },
+      {
+        "code": "9693",
+        "title": "Marine Science"
+      },
+      {
+        "code": "9231",
+        "title": "Mathematics"
+      },
+      {
+        "code": "9280",
+        "title": "Mathematics"
+      },
+      {
+        "code": "9709",
+        "title": "Mathematics"
+      },
+      {
+        "code": "9607",
+        "title": "Media Studies"
+      },
+      {
+        "code": "9385",
+        "title": "Music"
+      },
+      {
+        "code": "9483",
+        "title": "Music"
+      },
+      {
+        "code": "8024",
+        "title": "Nepal Studies"
+      },
+      {
+        "code": "9396",
+        "title": "Physical Education"
+      },
+      {
+        "code": "8780",
+        "title": "Physical Science"
+      },
+      {
+        "code": "9702",
+        "title": "Physics"
+      },
+      {
+        "code": "8672",
+        "title": "Portuguese"
+      },
+      {
+        "code": "8684",
+        "title": "Portuguese"
+      },
+      {
+        "code": "9718",
+        "title": "Portuguese"
+      },
+      {
+        "code": "9698",
+        "title": "Psychology"
+      },
+      {
+        "code": "9990",
+        "title": "Psychology"
+      },
+      {
+        "code": "9699",
+        "title": "Sociology"
+      },
+      {
+        "code": "8022",
+        "title": "Spanish"
+      },
+      {
+        "code": "8278",
+        "title": "Spanish"
+      },
+      {
+        "code": "8279",
+        "title": "Spanish"
+      },
+      {
+        "code": "8665",
+        "title": "Spanish"
+      },
+      {
+        "code": "8673",
+        "title": "Spanish"
+      },
+      {
+        "code": "8685",
+        "title": "Spanish"
+      },
+      {
+        "code": "9282",
+        "title": "Spanish"
+      },
+      {
+        "code": "9719",
+        "title": "Spanish"
+      },
+      {
+        "code": "9844",
+        "title": "Spanish"
+      },
+      {
+        "code": "8386",
+        "title": "Sport & Physical Education"
+      },
+      {
+        "code": "8689",
+        "title": "Tamil"
+      },
+      {
+        "code": "9689",
+        "title": "Tamil"
+      },
+      {
+        "code": "8690",
+        "title": "Telugu"
+      },
+      {
+        "code": "9690",
+        "title": "Telugu"
+      },
+      {
+        "code": "9694",
+        "title": "Thinking Skills"
+      },
+      {
+        "code": "9395",
+        "title": "Travel and Tourism"
+      },
+      {
+        "code": "8686",
+        "title": "Urdu"
+      },
+      {
+        "code": "9676",
+        "title": "Urdu"
+      },
+      {
+        "code": "9686",
+        "title": "Urdu"
+      }
+    ]
+  }
+}

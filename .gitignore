@@ -1,0 +1,33 @@
+# Python environments and generated files
+__pycache__/
+*.py[cod]
+.venv/
+.build-venv/
+venv/
+vendor/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+test-temp/
+*.spec
+*.exe
+*.zip
+.papermerge-*/
+self-test.json
+smoke.pdf
+
+# Downloaded exam material and network-test artifacts
+*.pdf
+tests/integration_*.png
+tests/live_*.json
+
+# Local editor, OS and credential configuration
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+.env
+.env.*
