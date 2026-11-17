@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-17T09:42:32Z",
+  "title": "Design System: PaperMerge",
+  "extensions": {
+    "platform": "windows-desktop",
+    "implementation": "Python Tk/ttk, clam theme; UI source is papermerge/gui.py",
+    "previewNote": "HTML/CSS snippets translate Tk colors, type and padding for the design panel. Borders, arrows and focus rendering are browser approximations, not native Tk screenshots.",
+    "typographyMeta": {
+      "title": {
+        "displayName": "Compact product title",
+        "purpose": "PaperMerge header; Tk sizes are points."
+      },
+      "section": {
+        "displayName": "Section label",
+        "purpose": "Search results label."
+      },
+      "body": {
+        "displayName": "Desktop body",
+        "purpose": "Default labels and controls."
+      },
+      "action": {
+        "displayName": "Primary action",
+        "purpose": "Find and Save button labels."
+      },
+      "detail": {
+        "displayName": "Supporting detail",
+        "purpose": "Helpers, catalogue status and result rows."
+      },
+      "table-heading": {
+        "displayName": "Table heading",
+        "purpose": "Result column headings."
+      }
+    },
+    "shadows": [],
+    "motion": [],
+    "breakpoints": [],
+    "nativeGeometry": {
+      "defaultWindow": "1120x900",
+      "minimumWindow": "900x760",
+      "theme": "clam",
+      "cornerTreatment": "Theme-owned squared controls; no custom radius token.",
+      "focusTreatment": "Tk/ttk theme-owned.",
+      "layout": "Compact header, grouped filters, flexible results table, reserved bottom actions/progress/status; no visible footer or log."
+    }
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Find papers and Save merged PDF.",
+      "html": "<button class=\"ds-primary\">Find papers</button>",
+      "css": ".ds-primary{background:#161616;color:#fff;font:600 11pt 'Segoe UI Semibold','Segoe UI',sans-serif;padding:12px 22px;border:0;border-radius:0}.ds-primary:hover,.ds-primary:active{background:#383838}.ds-primary:focus-visible{outline:auto}.ds-primary:disabled{background:#d4d4d4;color:#626262}"
+    },
+    {
+      "name": "Secondary action",
+      "kind": "button",
+      "refersTo": "button-secondary",
+      "description": "Selection, cancellation, search clearing and opening a saved PDF.",
+      "html": "<button class=\"ds-secondary\">Open saved PDF</button>",
+      "css": ".ds-secondary{background:#ededed;color:#161616;font:11pt 'Segoe UI',sans-serif;padding:10px 14px;border:0;border-radius:0}.ds-secondary:hover,.ds-secondary:active{background:#dddddd}.ds-secondary:focus-visible{outline:auto}.ds-secondary:disabled{color:#757575}"
+    },
+    {
+      "name": "Quiet action",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Compact Refresh subjects control within the catalogue row.",
+      "html": "<button class=\"ds-quiet\">Refresh subjects</button>",
+      "css": ".ds-quiet{background:#ededed;color:#161616;font:10pt 'Segoe UI',sans-serif;padding:4px 10px;border:0;border-radius:0}.ds-quiet:hover,.ds-quiet:active{background:#dddddd}.ds-quiet:focus-visible{outline:auto}.ds-quiet:disabled{color:#757575}"
+    },
+    {
+      "name": "Search field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "White padded field; native combobox variants additionally offer filtered choices.",
+      "html": "<label class=\"ds-field-label\">Search results <input class=\"ds-field\" type=\"text\" aria-label=\"Search results\"></label>",
+      "css": ".ds-field-label{color:#161616;font:11pt 'Segoe UI',sans-serif}.ds-field{background:#fff;color:#161616;font:11pt 'Segoe UI',sans-serif;padding:8px 10px;border-radius:0}.ds-field::selection{background:#161616;color:#fff}.ds-field:focus-visible{outline:auto}"
+    },
+    {
+      "name": "Grouped filter surface",
+      "kind": "card",
+      "refersTo": "filter-card",
+      "description": "Flat white container grouping labeled filters without a custom shadow or radius.",
+      "html": "<div class=\"ds-card\"><label class=\"ds-card-label\">Subject name or syllabus code<br><input class=\"ds-card-field\" value=\"Mathematics (9709)\" aria-label=\"Subject name or syllabus code\"></label></div>",
+      "css": ".ds-card{background:#fff;color:#161616;padding:16px;border-radius:0}.ds-card-label{font:11pt 'Segoe UI',sans-serif}.ds-card-field{margin-top:5px;background:#fff;color:#161616;font:11pt 'Segoe UI',sans-serif;padding:8px 10px;border-radius:0}.ds-card-field:focus-visible{outline:auto}"
+    },
+    {
+      "name": "Results row",
+      "kind": "custom",
+      "refersTo": "results-row",
+      "description": "A 36px row separates explicit paper inclusion from gray browsing selection.",
+      "html": "<div class=\"ds-result\" tabindex=\"0\"><span>[x]</span><span>9709_s24_qp_12.pdf</span><span>2024</span><span>May / Jun</span></div>",
+      "css": ".ds-result{display:flex;align-items:center;gap:16px;height:36px;background:#fff;color:#161616;font:10pt 'Segoe UI',sans-serif}.ds-result:focus{background:#e3e3e3;color:#111}.ds-result:focus-visible{outline:auto}"
+    }
+  ],
+  "narrative": {
+    "northStar": "A clear revision desk",
+    "overview": "The user's visual commitment is clean, iOS-inspired black and white. The shipped interface applies that restraint through grouped white forms, quiet gray surroundings and black actions, using Windows Tk/ttk controls and Segoe UI. It remains a desktop utility with native keyboard behavior and file dialogs.",
+    "keyCharacteristics": [
+      "Monochrome hierarchy with plain, readable labels.",
+      "Compact header and grouped filters above a flexible results table.",
+      "Persistent space for the save actions, progress and status.",
+      "Direct state changes without decorative animation."
+    ],
+    "rules": [
+      {
+        "name": "The Monochrome Rule",
+        "body": "Preserve the user's black-and-white direction; use text and explicit selection markers to communicate state.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do preserve the compact 22pt title and reserved bottom action region.",
+      "Do keep searchable dropdowns, visible labels and exact-variant guidance together.",
+      "Do retain readable monochrome selection, disabled and empty states.",
+      "Do preserve Windows keyboard behavior and native file dialogs."
+    ],
+    "donts": [
+      "Don't introduce colored accents or a phone-shaped app shell.",
+      "Don't replace actual Tk geometry with invented rounded cards or shadows.",
+      "Don't let an expanding results table push Save, Open, progress or status out of view.",
+      "Don't describe the curated Top 20 collections as official or verified popularity rankings."
+    ]
+  }
+}

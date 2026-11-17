@@ -1,5 +1,17 @@
 # PaperMerge
 
+**[Use PaperMerge in your browser](https://zaidansr.github.io/papermerge/)** · [Download the Windows app](https://github.com/zaidansr/papermerge/releases/latest)
+
+## Browser version
+
+The GitHub Pages website searches all bundled subjects and both curated Top 20 collections, links to the original paper catalogues, and combines PDFs selected from your device. Choose files, use Up/Down to arrange them, then select **Merge & save PDF**. Files stay in browser memory and are never uploaded. Clearing the page removes the selected files from the app.
+
+GitHub Pages is static hosting. Repository browser-access restrictions mean it cannot automatically fetch exam PDFs: download them from the linked catalogue first, then select them in the web tool. The Windows app supports automatic discovery, downloading, and merging.
+
+The web merger accepts up to 100 PDFs, 50 MB each and 150 MB total. Locked or damaged PDFs are rejected; original bookmarks and interactive form behaviour may not survive merging. PDF-Lib 1.17.1 loads from a pinned CDN URL with an integrity hash, so an internet connection is required to load the tool.
+
+Web source is in `docs/` and requires no build step. GitHub Pages publishes `main` → `/docs`. For local preview, run `python -m http.server 8766 --directory docs`. To run the six web merge/catalogue checks with Node.js 20+ and npm: `npm install --ignore-scripts`, then `npm run test:web`.
+
 [![Windows build](https://github.com/zaidansr/papermerge/actions/workflows/windows.yml/badge.svg)](https://github.com/zaidansr/papermerge/actions/workflows/windows.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
@@ -8,6 +20,8 @@ Download Cambridge IGCSE and AS & A Level past papers by syllabus, then combine 
 **[Download the latest Windows release](https://github.com/zaidansr/papermerge/releases/latest)** · [Report a problem](https://github.com/zaidansr/papermerge/issues/new?template=bug_report.md)
 
 ## Features
+
+Version 1.2 adds a monochrome iOS-inspired Windows interface, a Top 20 subjects collection for each qualification, dropdowns for years/sessions/document types/papers, and results search. Top 20 is curated and includes archived codes; it is not an official popularity ranking.
 
 - Search syllabus codes and subject names; switch between IGCSE and AS & A Level.
 - Browse a bundled catalogue of **148 IGCSE** and **110 AS & A Level** codes, including archived syllabuses. Refresh from the source on demand or automatically at startup.
@@ -21,7 +35,7 @@ Download Cambridge IGCSE and AS & A Level past papers by syllabus, then combine 
 
 1. Open the [latest release](https://github.com/zaidansr/papermerge/releases/latest).
 2. Download and extract the Windows x64 ZIP. It includes the app, README, MIT license, third-party notices, and an executable SHA-256 checksum.
-3. Open `PaperMerge-v1.1.0.exe` (or the corresponding newer version).
+3. Open `PaperMerge-v1.2.0.exe` (or the corresponding newer version).
 
 The app needs **Windows 10/11, 64-bit**. Python and administrator privileges are not required. An internet connection is required to find and download papers. The executable is unsigned.
 
@@ -64,12 +78,12 @@ python -m venv .venv
 .\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
-The 35 offline tests cover exact syllabus matching, leading zeros, catalogue parsing and fallback, dropdown search, qualification switching, stale refresh replies, PDF order, text/rotation/link preservation, bookmarks, retries, invalid downloads, cancellation, and protecting existing output. Widget tests create hidden Tk windows; run them in a Windows desktop session.
+The 46 offline tests cover exact syllabus matching, leading zeros, catalogue parsing and fallback, dropdown search, qualification switching, stale refresh replies, PDF order, text/rotation/link preservation, bookmarks, retries, invalid downloads, cancellation, and protecting existing output. Widget tests create hidden Tk windows; run them in a Windows desktop session.
 
 The executable also has an offline smoke test:
 
 ```powershell
-.\PaperMerge-v1.1.0.exe --self-test .\smoke-test
+.\PaperMerge-v1.2.0.exe --self-test .\smoke-test
 ```
 
 It writes `self-test.json` and a two-page `smoke.pdf`, verifying the packaged dropdown, bundled catalogues, and PDF engine.
@@ -106,3 +120,4 @@ PaperMerge's original source code is released under the **[MIT License](LICENSE)
 Third-party software retains its own licenses; see [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Downloaded exam materials remain the property of their respective publishers and are **not covered by PaperMerge's MIT license**. No exam PDFs are distributed in this repository or releases.
 
 This independent project is not affiliated with, endorsed by, or maintained by Cambridge International Education, PapaCambridge, or GCE Guide.
+

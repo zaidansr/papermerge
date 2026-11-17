@@ -1,2 +1,2 @@
-"""PaperMerge - Cambridge past-paper download and PDF merge utility."""
-__version__ = "1.1.0"
+"""PaperMerge desktop past-paper utility."""
+__version__ = "1.2.0"
