@@ -1,1 +1,0 @@
-{"name":"papermerge-web","private":true,"scripts":{"test:web":"node --test tests/web.test.mjs"},"devDependencies":{"pdf-lib":"1.17.1"}}

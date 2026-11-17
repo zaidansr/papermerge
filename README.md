@@ -1,17 +1,5 @@
 # PaperMerge
 
-**[Use PaperMerge in your browser](https://zaidansr.github.io/papermerge/)** · [Download the Windows app](https://github.com/zaidansr/papermerge/releases/latest)
-
-## Browser version
-
-The GitHub Pages website searches all bundled subjects, links to the original paper catalogues, and combines PDFs selected from your device. Choose files, use Up/Down to arrange them, then select **Merge & download**. Files stay in browser memory and are never uploaded. Clearing the page removes the selected files from the app.
-
-GitHub Pages is static hosting. Repository browser-access restrictions mean it cannot automatically fetch exam PDFs: download them from the linked catalogue first, then select them in the web tool. The Windows app supports automatic discovery, downloading, and merging.
-
-The web merger accepts up to 100 PDFs, 50 MB each and 150 MB total. Locked or damaged PDFs are rejected; original bookmarks and interactive form behaviour may not survive merging. PDF-Lib 1.17.1 loads from a pinned CDN URL with an integrity hash, so an internet connection is required to load the tool.
-
-Web source is in `docs/` and requires no build step. GitHub Pages publishes `main` → `/docs`. For local preview, run `python -m http.server 8766 --directory docs`. To run the six web merge/catalogue checks with Node.js 20+ and npm: `npm install --ignore-scripts`, then `npm run test:web`.
-
 [![Windows build](https://github.com/zaidansr/papermerge/actions/workflows/windows.yml/badge.svg)](https://github.com/zaidansr/papermerge/actions/workflows/windows.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
