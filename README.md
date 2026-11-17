@@ -9,7 +9,7 @@ Download Cambridge IGCSE and AS & A Level past papers by syllabus, then combine 
 
 ## Features
 
-Version 1.2 adds a monochrome iOS-inspired Windows interface, a Top 20 subjects collection for each qualification, dropdowns for years/sessions/document types/papers, and results search. Top 20 is curated and includes archived codes; it is not an official popularity ranking.
+Version 1.2 has a black-and-white interface, filter dropdowns, results search, and 20 subject shortcuts per qualification. The shortcuts include archived codes and are not an official popularity ranking.
 
 - Search syllabus codes and subject names; switch between IGCSE and AS & A Level.
 - Browse a bundled catalogue of **148 IGCSE** and **110 AS & A Level** codes, including archived syllabuses. Refresh from the source on demand or automatically at startup.
@@ -23,22 +23,26 @@ Version 1.2 adds a monochrome iOS-inspired Windows interface, a Top 20 subjects 
 
 1. Open the [latest release](https://github.com/zaidansr/papermerge/releases/latest).
 2. Download and extract the Windows x64 ZIP. It includes the app, README, MIT license, third-party notices, and an executable SHA-256 checksum.
-3. Open `PaperMerge-v1.2.0.exe` (or the corresponding newer version).
+3. Open the extracted `PaperMerge-v<version>.exe`. Its filename shows the release version.
+
+The source version is **1.2.0**. On **17 November 2026**, the latest published GitHub release was still **1.1.0**. For a build of the current source, open the [Windows build workflow](https://github.com/zaidansr/papermerge/actions/workflows/windows.yml), choose the latest successful run for `main`, and download its `PaperMerge-windows-x64` artifact. GitHub requires sign-in to download workflow artifacts.
 
 The app needs **Windows 10/11, 64-bit**. Python and administrator privileges are not required. An internet connection is required to find and download papers. The executable is unsigned.
 
 ## Use
 
 1. Choose **IGCSE** or **AS & A Level**.
-2. Open the **Syllabus** dropdown. Each entry shows a code and subject name, such as `0580 — Mathematics`. Type a code or part of a name to narrow the list, then select an entry. Clear the box to show the full list again.
-3. Choose years, sessions, and document types. **Question papers** are selected by default; select **Mark schemes** to include answers.
+2. Open **Subject name or syllabus code**. Each entry shows a code and subject name, such as `0580 — Mathematics`. Type a code or part of a name to narrow the list, then select an entry. Clear the box to show the full list again.
+3. Choose years, sessions, and document types. **Question papers** are selected by default; choose **Questions + answers** under **Include** to download both question papers and mark schemes.
 4. Optionally enter components. `2` includes paper 2 and variants such as 21, 22, and 23. `21,22` includes those exact variants. Leave blank for all. Selected session-wide reports and thresholds are included regardless of this filter.
 5. Click **Find papers**, review the preview, and click rows or press Space to include or exclude files.
-6. Click **Download & merge PDF**, choose a destination, and wait for confirmation. **Open PDF** opens the result in your default viewer.
+6. Click **Save merged PDF…**, choose a destination, and wait for confirmation. **Open saved PDF** opens the result in your default viewer.
 
 Files are merged by year, session, and component, in preview order. Within a component the order is question paper, insert, instructions, then mark scheme. Reports and thresholds follow component files.
 
 Cancellation can take until the current network request finishes. Temporary downloads are removed after success, failure, or normal cancellation. A forced process termination can leave a `.papermerge-` temporary folder beside the chosen output.
+
+Use **Search results** to find files in the preview; it does not change which files are selected. Changing paper filters clears the old results, so click **Find papers** again.
 
 ## Sources and availability
 
@@ -74,7 +78,9 @@ The executable also has an offline smoke test:
 .\PaperMerge-v1.2.0.exe --self-test .\smoke-test
 ```
 
-It writes `self-test.json` and a two-page `smoke.pdf`, verifying the packaged dropdown, bundled catalogues, and PDF engine.
+It writes `self-test.json` and a two-page `smoke.pdf`, verifying the packaged dropdown, bundled catalogues, and PDF engine. This test uses synthetic PDFs and does not contact paper repositories.
+
+Live checks on **17 November 2026** also saved verified question-paper/mark-scheme pairs for IGCSE **0580** (23 pages) and AS & A Level **9709** (29 pages). The reported app failure was not reproduced. See [TESTING.md](TESTING.md) for the exact filters, scope, and results.
 
 ## Build a Windows release
 

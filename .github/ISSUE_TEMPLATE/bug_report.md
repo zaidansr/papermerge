@@ -18,7 +18,8 @@ Describe the problem and expected result.
 
 ## App and filters
 
-- PaperMerge version:
+- PaperMerge version and exact executable filename:
+- Download source (release tag, workflow run, or built locally):
 - Windows version:
 - Qualification and syllabus code:
 - Years and sessions:

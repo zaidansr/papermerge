@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+- Remove the website implementation and disable GitHub Pages; keep the Windows app.
+- Correct README controls and explain how to download current Windows build artifacts.
+- Document offline, packaged, and live GUI test results from 17 November 2026. The reported failure was not reproduced.
+
 ## 1.2.0 - 2026-11-17
 
 - Redesign the Windows interface in black, white and neutral gray.
