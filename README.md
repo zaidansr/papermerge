@@ -4,7 +4,7 @@
 
 ## Browser version
 
-The GitHub Pages website searches all bundled subjects and both curated Top 20 collections, links to the original paper catalogues, and combines PDFs selected from your device. Choose files, use Up/Down to arrange them, then select **Merge & save PDF**. Files stay in browser memory and are never uploaded. Clearing the page removes the selected files from the app.
+The GitHub Pages website searches all bundled subjects, links to the original paper catalogues, and combines PDFs selected from your device. Choose files, use Up/Down to arrange them, then select **Merge & download**. Files stay in browser memory and are never uploaded. Clearing the page removes the selected files from the app.
 
 GitHub Pages is static hosting. Repository browser-access restrictions mean it cannot automatically fetch exam PDFs: download them from the linked catalogue first, then select them in the web tool. The Windows app supports automatic discovery, downloading, and merging.
 
