@@ -9,7 +9,6 @@ Download Cambridge IGCSE and AS & A Level past papers by syllabus, then combine 
 
 ## Features
 
-Version 1.2 has a black-and-white interface, filter dropdowns, results search, and 20 subject shortcuts per qualification. The shortcuts include archived codes and are not an official popularity ranking.
 
 - Search syllabus codes and subject names; switch between IGCSE and AS & A Level.
 - Browse a bundled catalogue of **148 IGCSE** and **110 AS & A Level** codes, including archived syllabuses. Refresh from the source on demand or automatically at startup.
